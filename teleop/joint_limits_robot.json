@@ -1,0 +1,12 @@
+{
+  "_source": "humanoid_control/claude_ws/upper_control/workorder.md, '가동 범위' (applied 2026-09-03). Degrees. +-90 entries there are assumptions (no CAD interference), the rest are measured.",
+  "_note": "Joint q here is the controller q (TcUpperBodyControl arm_model.h), which is the rmd/MuJoCo q: all 14 joint axes agree (kinematics_check.md, project column).",
+  "RA": {
+    "min": [-90.00, -22.97, -90.00, -23.44, -90.00, -103.69, -117.19],
+    "max": [ 90.00,  90.00,  90.00,  91.88,  90.00,   48.84,  117.19]
+  },
+  "LA": {
+    "min": [-90.00, -90.00, -90.00, -91.88, -90.00,  -48.84, -117.19],
+    "max": [ 90.00,  22.97,  90.00,  19.69,  90.00,  103.69,  117.19]
+  }
+}

@@ -4,8 +4,8 @@
     python build_apk.py --install       ... and adb install -r on every connected phone
     python build_apk.py --install -s SERIAL
 
-The app has no resources and no libraries, so the plain SDK tool chain is
-enough:  aapt2 link -> javac -> d8 -> zipalign -> apksigner.  This avoids a
+The app has no resources and no libraries (only assets: the robot model
+exported by ../export_phone_model.py), so the plain SDK tool chain is enough:  aapt2 link -> javac -> d8 -> zipalign -> apksigner.  This avoids a
 Gradle/AGP download and works offline.  Tools are found from ANDROID_HOME /
 ANDROID_SDK_ROOT / %LOCALAPPDATA%\\Android\\Sdk and the JDK bundled with
 Android Studio (or JAVA_HOME).
@@ -82,8 +82,10 @@ def main() -> int:
     (OUT / "dex").mkdir()
 
     res_apk = OUT / "res.apk"
+    if not (HERE / "assets" / "robot_model.txt").exists():
+        sys.exit("assets missing - run  python ../export_phone_model.py  first")
     run([bt / "aapt2.exe", "link", "-o", res_apk, "-I", android_jar,
-         "--manifest", HERE / "AndroidManifest.xml",
+         "--manifest", HERE / "AndroidManifest.xml", "-A", HERE / "assets",
          "--min-sdk-version", MIN_SDK, "--target-sdk-version", TARGET_SDK], env)
 
     srcs = sorted((HERE / "src").rglob("*.java"))

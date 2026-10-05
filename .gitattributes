@@ -1,3 +1,5 @@
 *.rdyn binary
 *.x_t binary
 *.stl binary
+*.bin binary
+*.png binary
