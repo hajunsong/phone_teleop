@@ -1,0 +1,15 @@
+axis,q_min_deg,q_max_deg,blocks_min,blocks_max
+RA_q1,,,,
+RA_q2,-22.97,,body3.어깨_Yaw_팔꿈치_연결부_B_260423_URDF@RightArm@HumanoidUpperBody vs base.C1_Body_Part07_260515@HumanoidUpperBody,
+RA_q3,,,,
+RA_q4,-23.44,91.88,body4.팔꿈치_Pitch_회전부2_260427_URDF@RightArm@HumanoidUpperBody vs body3.팔꿈치_스토퍼_260424_URDF@RightArm@HumanoidUpperBody,body4.팔꿈치_Pitchl베어링_고정파트_URDF기본@RightArm@HumanoidUpperBody vs body3.어깨_Yaw_팔꿈치_연결부_260423_URDF@RightArm@HumanoidUpperBody
+RA_q5,,,,
+RA_q6,-48.84,103.69,body6.C1_손목_Pitch_링크고정부2_260408@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260409_v2_URDF@RightArm@HumanoidUpperBody,body7.C1_손목_Pitch_회전부_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_샤프트_260408_URDF1@RightArm@HumanoidUpperBody
+RA_q7,-117.19,117.19,body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부2_260409_v2_URDF@RightArm@HumanoidUpperBody,body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260409_v2_URDF@RightArm@HumanoidUpperBody
+LA_q1,,,,
+LA_q2,,22.97,,body3.어깨_Yaw_팔꿈치_연결부_B_260423_URDF@LeftArm@HumanoidUpperBody vs base.C1_Body_Part07_260515@HumanoidUpperBody
+LA_q3,,,,
+LA_q4,-91.88,19.69,body4.팔꿈치_Pitchl베어링_고정파트_URDF기본1@LeftArm@HumanoidUpperBody vs body3.어깨_Yaw_팔꿈치_연결부_260423_URDF@LeftArm@HumanoidUpperBody,body4.팔꿈치_Pitch_회전부2_260427_URDF@LeftArm@HumanoidUpperBody vs body3.팔꿈치_스토퍼_260424_URDF@LeftArm@HumanoidUpperBody
+LA_q5,,,,
+LA_q6,-103.69,48.84,body7.C1_손목_Pitch_회전부_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_샤프트_260408_URDF@LeftArm@HumanoidUpperBody,body6.C1_손목_Pitch_링크고정부2_260408_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260526_v2_URDF@LeftArm@HumanoidUpperBody
+LA_q7,-117.19,117.19,body7.C1_손목_Pitch_회전부2_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260526_v2_URDF@LeftArm@HumanoidUpperBody,body7.C1_손목_Pitch_회전부2_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부2_260409_v2_URDF@LeftArm@HumanoidUpperBody

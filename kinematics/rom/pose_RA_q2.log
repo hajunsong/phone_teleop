@@ -1,0 +1,31 @@
+axis RA_q2: 1308 candidate pairs within 180 deg
+opened HumanoidUpperBody_rom
+hid 255 layers while turning bodies
+parametric points: 33 found, 33 deleted, 0 connectors severed
+turning 8 bodies about (0,-259.679508,313.669682)
+  at rest: body2.¾î±ú_Roll_¿¬°áºÎ_260423_URDF vs body1.____mm_______1 -- designed fit, ignored
+  at rest: body2.¾î±ú_Roll_º£¾î¸µ_¿¬°áºÎ_260423_URDF vs body1.º£¾î¸µ_6809_URDF -- designed fit, ignored
+2 resting fits ignored, 1306 pairs live
+3 pairs are already inside the 2.5 mm keep-out at rest; those are judged on contact alone
+  +    0.0 deg  clear
+  +   15.0 deg  clear
+  +   30.0 deg  clear
+  +   45.0 deg  clear
+  +   60.0 deg  clear
+  +   75.0 deg  clear
+  +   90.0 deg  clear
+  +  105.0 deg  clear
+  +  120.0 deg  clear
+  +  135.0 deg  clear
+  +  150.0 deg  clear
+  +  165.0 deg  clear
+  +  180.0 deg  clear
+  + limit: clear through 180 deg
+  -    0.0 deg  clear
+  -   15.0 deg  clear
+  -   30.0 deg  BLOCKED by body3.¾î±ú_Yaw_ÆÈ²ÞÄ¡_¿¬°áºÎ_B_260423_URDF vs base.C1_Body_Part07_260515
+  - limit -22.97 deg   body3.¾î±ú_Yaw_ÆÈ²ÞÄ¡_¿¬°áºÎ_B_260423_URDF vs base.C1_Body_Part07_260515
+answered the parametric-point modal 0 times
+21 body moves, 62 s turning, 287 s total
+wrote C:\Users\gkwns\Desktop\Humanoid\HumanoidUpper\claude_ws\kinematics\rom\pose_RA_q2.csv
+closed (not saved)

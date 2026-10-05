@@ -21,6 +21,7 @@
 | 폴더 | 내용 |
 |---|---|
 | [`teleop/`](teleop/) | 폰 앱(Java, Gradle 없이 빌드), PC 브로커·시뮬, 폰 코드 검증 도구. **사용법·안전 설계·검증 결과는 [teleop/README.md](teleop/README.md)** |
+| [`kinematics/`](kinematics/) | **양팔 Modified DH 파라미터**, 관절 규약(실기 제어기·폰 앱과의 관계), 모듈·MQTT 인덱스 대응, **RecurDyn 파트 간섭 기반 모듈 구동 범위 표**. [kinematics/README.md](kinematics/README.md) |
 | [`mujoco/`](mujoco/) | RecurDyn 모델에서 생성한 MuJoCo 모델(MJCF, URDF, STL)과 손목 평행링크 루프 유틸 |
 | [`recurdyn/`](recurdyn/) | RecurDyn 원본: `HumanoidUpperBody.rmd`(기구학·질량의 단일 진실원), `.rdyn`(V9R5), `.x_t`(Parasolid CAD) |
 | [`docs/`](docs/) | 폰 텔레오퍼레이션 검토 문서와 변경 이력 |
@@ -51,6 +52,9 @@ python teleop_sim.py --broker 127.0.0.1 --publish-state --no-usb --no-wifi    # 
 - 실제 폰(Galaxy A15)을 USB와 Wi-Fi로 각각 시뮬에 연결해 확인했습니다: 연속·스텝·초기자세 복귀·3손가락 동시 누르기·재연결 시 동기화. Galaxy S25에도 설치했습니다.
 - **실기 로봇에서는 아직 시험하지 않았습니다.** 관절축 14개가 제어기와 같은 것은 확인했지만, 엔코더 영점이 모델과 같은지는 첫 연결 때 서보 0 상태에서 3D 뷰와 실물을 비교해 확인해야 합니다. 절차는 [teleop/README.md](teleop/README.md#실기에-붙일-때)에 있습니다.
 - **폰은 한 번에 한 대만 연결**합니다(MQTT에는 발행자 중재가 없음).
+- **모델 변경 주의 (2026-10-06)**: 현재 rmd는 q7 축이 뒤집혀 있어서 `q7(rmd) = −q7(실기 제어기·폰 앱)` 입니다.
+  손목 형상이 바뀌면서 간섭 기반 q6 범위가 9월 측정의 거울상이 됐습니다. 폰 앱의 실기 한계는 9월 형상 기준입니다.
+  자세한 내용은 [kinematics/README.md](kinematics/README.md) 3·4절에 있습니다.
 - 아직 없는 것: 팔끼리·몸통과의 충돌 회피, USB 연결로 실기 브로커까지 중계, 여러 폰 사이의 제어권 중재.
 
 ## 참고

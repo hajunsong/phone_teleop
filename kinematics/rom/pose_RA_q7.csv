@@ -1,0 +1,3 @@
+axis,dir,limit_deg,moving_solid,other_solid,angles_tested,seconds
+RA_q7,+,117.1875,body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody,body5.손목_Roll_회전부3_260409_v2_URDF@RightArm@HumanoidUpperBody,14,6.524
+RA_q7,-,-117.1875,body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody,body5.손목_Roll_회전부2_260409_v2_URDF@RightArm@HumanoidUpperBody,14,6.722

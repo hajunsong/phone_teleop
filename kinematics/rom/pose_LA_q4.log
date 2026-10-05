@@ -1,0 +1,27 @@
+axis LA_q4: 320 candidate pairs within 180 deg
+opened HumanoidUpperBody_rom
+hid 255 layers while turning bodies
+parametric points: 33 found, 33 deleted, 0 connectors severed
+turning 6 bodies about (0,289.573927,-28.0251)
+  at rest: body4.ÆÈ²ÞÄ¡_Pitch_È¸ÀüºÎ2_260427_URDF vs body3.º£¾î¸µ_6708U_H_URDF -- designed fit, ignored
+  at rest: body4.ÆÈ²ÞÄ¡_Pitch_È¸ÀüºÎ_260427_URDF vs body3.________11 -- designed fit, ignored
+2 resting fits ignored, 318 pairs live
+3 pairs are already inside the 2.5 mm keep-out at rest; those are judged on contact alone
+  +    0.0 deg  clear
+  (answered the parametric-point modal)
+  +   15.0 deg  clear
+  +   30.0 deg  BLOCKED by body4.ÆÈ²ÞÄ¡_Pitch_È¸ÀüºÎ2_260427_URDF vs body3.ÆÈ²ÞÄ¡_½ºÅäÆÛ_260424_URDF
+  + limit 19.69 deg   body4.ÆÈ²ÞÄ¡_Pitch_È¸ÀüºÎ2_260427_URDF vs body3.ÆÈ²ÞÄ¡_½ºÅäÆÛ_260424_URDF
+  -    0.0 deg  clear
+  -   15.0 deg  clear
+  -   30.0 deg  clear
+  -   45.0 deg  clear
+  -   60.0 deg  clear
+  -   75.0 deg  clear
+  -   90.0 deg  clear
+  -  105.0 deg  BLOCKED by body4.ÆÈ²ÞÄ¡_Pitchlº£¾î¸µ_°íÁ¤ÆÄÆ®_URDF±âº»1 vs body3.¾î±ú_Yaw_ÆÈ²ÞÄ¡_¿¬°áºÎ_B_260423_URDF
+  - limit -91.88 deg   body4.ÆÈ²ÞÄ¡_Pitchlº£¾î¸µ_°íÁ¤ÆÄÆ®_URDF±âº»1 vs body3.¾î±ú_Yaw_ÆÈ²ÞÄ¡_¿¬°áºÎ_260423_URDF
+answered the parametric-point modal 1 times
+21 body moves, 17 s turning, 21 s total
+wrote C:\Users\gkwns\Desktop\Humanoid\HumanoidUpper\claude_ws\kinematics\rom\pose_LA_q4.csv
+closed (not saved)

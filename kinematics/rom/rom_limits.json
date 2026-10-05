@@ -1,0 +1,128 @@
+{
+ "RA_q1": {
+  "module": "M2",
+  "joint": "어깨 Pitch",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "RA_q2": {
+  "module": "M3",
+  "joint": "어깨 Roll",
+  "measured": true,
+  "q_min_deg": -22.97,
+  "q_max_deg": null,
+  "blocks_min": "body3.어깨_Yaw_팔꿈치_연결부_B_260423_URDF@RightArm@HumanoidUpperBody vs base.C1_Body_Part07_260515@HumanoidUpperBody",
+  "blocks_max": ""
+ },
+ "RA_q3": {
+  "module": "M4",
+  "joint": "어깨 Yaw",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "RA_q4": {
+  "module": "M5",
+  "joint": "팔꿈치 Pitch",
+  "measured": true,
+  "q_min_deg": -23.44,
+  "q_max_deg": 91.88,
+  "blocks_min": "body4.팔꿈치_Pitch_회전부2_260427_URDF@RightArm@HumanoidUpperBody vs body3.팔꿈치_스토퍼_260424_URDF@RightArm@HumanoidUpperBody",
+  "blocks_max": "body4.팔꿈치_Pitchl베어링_고정파트_URDF기본@RightArm@HumanoidUpperBody vs body3.어깨_Yaw_팔꿈치_연결부_260423_URDF@RightArm@HumanoidUpperBody"
+ },
+ "RA_q5": {
+  "module": "M6",
+  "joint": "손목 Roll",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "RA_q6": {
+  "module": "M7",
+  "joint": "손목 Yaw",
+  "measured": true,
+  "q_min_deg": -48.84,
+  "q_max_deg": 103.69,
+  "blocks_min": "body6.C1_손목_Pitch_링크고정부2_260408@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260409_v2_URDF@RightArm@HumanoidUpperBody",
+  "blocks_max": "body7.C1_손목_Pitch_회전부_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_샤프트_260408_URDF1@RightArm@HumanoidUpperBody"
+ },
+ "RA_q7": {
+  "module": "M8",
+  "joint": "손목 Pitch",
+  "measured": true,
+  "q_min_deg": -117.19,
+  "q_max_deg": 117.19,
+  "blocks_min": "body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부2_260409_v2_URDF@RightArm@HumanoidUpperBody",
+  "blocks_max": "body7.C1_손목_Pitch_회전부2_260415_URDF@RightArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260409_v2_URDF@RightArm@HumanoidUpperBody"
+ },
+ "LA_q1": {
+  "module": "M9",
+  "joint": "어깨 Pitch",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "LA_q2": {
+  "module": "M10",
+  "joint": "어깨 Roll",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": 22.97,
+  "blocks_min": "",
+  "blocks_max": "body3.어깨_Yaw_팔꿈치_연결부_B_260423_URDF@LeftArm@HumanoidUpperBody vs base.C1_Body_Part07_260515@HumanoidUpperBody"
+ },
+ "LA_q3": {
+  "module": "M11",
+  "joint": "어깨 Yaw",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "LA_q4": {
+  "module": "M12",
+  "joint": "팔꿈치 Pitch",
+  "measured": true,
+  "q_min_deg": -91.88,
+  "q_max_deg": 19.69,
+  "blocks_min": "body4.팔꿈치_Pitchl베어링_고정파트_URDF기본1@LeftArm@HumanoidUpperBody vs body3.어깨_Yaw_팔꿈치_연결부_260423_URDF@LeftArm@HumanoidUpperBody",
+  "blocks_max": "body4.팔꿈치_Pitch_회전부2_260427_URDF@LeftArm@HumanoidUpperBody vs body3.팔꿈치_스토퍼_260424_URDF@LeftArm@HumanoidUpperBody"
+ },
+ "LA_q5": {
+  "module": "M13",
+  "joint": "손목 Roll",
+  "measured": true,
+  "q_min_deg": null,
+  "q_max_deg": null,
+  "blocks_min": "",
+  "blocks_max": ""
+ },
+ "LA_q6": {
+  "module": "M14",
+  "joint": "손목 Yaw",
+  "measured": true,
+  "q_min_deg": -103.69,
+  "q_max_deg": 48.84,
+  "blocks_min": "body7.C1_손목_Pitch_회전부_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_샤프트_260408_URDF@LeftArm@HumanoidUpperBody",
+  "blocks_max": "body6.C1_손목_Pitch_링크고정부2_260408_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260526_v2_URDF@LeftArm@HumanoidUpperBody"
+ },
+ "LA_q7": {
+  "module": "M15",
+  "joint": "손목 Pitch",
+  "measured": true,
+  "q_min_deg": -117.19,
+  "q_max_deg": 117.19,
+  "blocks_min": "body7.C1_손목_Pitch_회전부2_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부3_260526_v2_URDF@LeftArm@HumanoidUpperBody",
+  "blocks_max": "body7.C1_손목_Pitch_회전부2_260415_URDF@LeftArm@HumanoidUpperBody vs body5.손목_Roll_회전부2_260409_v2_URDF@LeftArm@HumanoidUpperBody"
+ }
+}

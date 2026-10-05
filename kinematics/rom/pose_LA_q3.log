@@ -1,0 +1,41 @@
+axis LA_q3: 24 candidate pairs within 180 deg
+opened HumanoidUpperBody_rom
+hid 255 layers while turning bodies
+parametric points: 33 found, 33 deleted, 0 connectors severed
+turning 7 bodies about (0,259.679508,313.669682)
+  at rest: body3.____mm_______1 vs body2.¾î±ú_Roll_Yaw_¿¬°áºÎ_260422_URDF -- designed fit, ignored
+1 resting fits ignored, 23 pairs live
+1 pairs are already inside the 2.5 mm keep-out at rest; those are judged on contact alone
+  +    0.0 deg  clear
+  (answered the parametric-point modal)
+  +   15.0 deg  clear
+  +   30.0 deg  clear
+  +   45.0 deg  clear
+  +   60.0 deg  clear
+  +   75.0 deg  clear
+  +   90.0 deg  clear
+  +  105.0 deg  clear
+  +  120.0 deg  clear
+  +  135.0 deg  clear
+  +  150.0 deg  clear
+  +  165.0 deg  clear
+  +  180.0 deg  clear
+  + limit: clear through 180 deg
+  -    0.0 deg  clear
+  -   15.0 deg  clear
+  -   30.0 deg  clear
+  -   45.0 deg  clear
+  -   60.0 deg  clear
+  -   75.0 deg  clear
+  -   90.0 deg  clear
+  -  105.0 deg  clear
+  -  120.0 deg  clear
+  -  135.0 deg  clear
+  -  150.0 deg  clear
+  -  165.0 deg  clear
+  -  180.0 deg  clear
+  - limit: clear through 180 deg
+answered the parametric-point modal 1 times
+26 body moves, 33 s turning, 54 s total
+wrote C:\Users\gkwns\Desktop\Humanoid\HumanoidUpper\claude_ws\kinematics\rom\pose_LA_q3.csv
+closed (not saved)

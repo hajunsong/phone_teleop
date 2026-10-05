@@ -1,0 +1,32 @@
+axis LA_q7: 17 candidate pairs within 180 deg
+opened HumanoidUpperBody_rom
+hid 255 layers while turning bodies
+parametric points: 33 found, 33 deleted, 0 connectors severed
+turning 1 bodies about (0,313.454601,-300.982447)
+  at rest: body7.C1_손목_Pitch_회전부_260415_URDF vs body6.C1_NONE -- designed fit, ignored
+1 resting fits ignored, 16 pairs live
+1 pairs are already inside the 2.5 mm keep-out at rest; those are judged on contact alone
+  +    0.0 deg  clear
+  +   15.0 deg  clear
+  +   30.0 deg  clear
+  +   45.0 deg  clear
+  +   60.0 deg  clear
+  +   75.0 deg  clear
+  +   90.0 deg  clear
+  +  105.0 deg  clear
+  +  120.0 deg  BLOCKED by body7.C1_손목_Pitch_회전부2_260415_URDF vs body5.손목_Roll_회전부2_260409_v2_URDF
+  + limit 117.19 deg   body7.C1_손목_Pitch_회전부2_260415_URDF vs body5.손목_Roll_회전부2_260409_v2_URDF
+  -    0.0 deg  clear
+  -   15.0 deg  clear
+  -   30.0 deg  clear
+  -   45.0 deg  clear
+  -   60.0 deg  clear
+  -   75.0 deg  clear
+  -   90.0 deg  clear
+  -  105.0 deg  clear
+  -  120.0 deg  BLOCKED by body7.C1_손목_Pitch_회전부2_260415_URDF vs body5.손목_Roll_회전부3_260526_v2_URDF
+  - limit -117.19 deg   body7.C1_손목_Pitch_회전부2_260415_URDF vs body5.손목_Roll_회전부3_260526_v2_URDF
+answered the parametric-point modal 0 times
+28 body moves, 1 s turning, 7 s total
+wrote C:\Users\gkwns\Desktop\Humanoid\HumanoidUpper\claude_ws\kinematics\rom\pose_LA_q7.csv
+closed (not saved)

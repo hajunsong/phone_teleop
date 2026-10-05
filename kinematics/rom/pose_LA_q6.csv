@@ -1,0 +1,3 @@
+axis,dir,limit_deg,moving_solid,other_solid,angles_tested,seconds
+LA_q6,+,48.84375,body6.C1_손목_Pitch_링크고정부2_260408_URDF@LeftArm@HumanoidUpperBody,body5.손목_Roll_회전부3_260526_v2_URDF@LeftArm@HumanoidUpperBody,9,3.141
+LA_q6,-,-103.6875,body7.C1_손목_Pitch_회전부_260415_URDF@LeftArm@HumanoidUpperBody,body5.손목_샤프트_260408_URDF@LeftArm@HumanoidUpperBody,13,5.618

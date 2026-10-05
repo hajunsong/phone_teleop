@@ -1,0 +1,3 @@
+axis,dir,limit_deg,moving_solid,other_solid,angles_tested,seconds
+RA_q4,+,91.875,body4.팔꿈치_Pitchl베어링_고정파트_URDF기본@RightArm@HumanoidUpperBody,body3.어깨_Yaw_팔꿈치_연결부_260423_URDF@RightArm@HumanoidUpperBody,13,34.19
+RA_q4,-,-23.4375,body4.팔꿈치_Pitch_회전부2_260427_URDF@RightArm@HumanoidUpperBody,body3.팔꿈치_스토퍼_260424_URDF@RightArm@HumanoidUpperBody,8,22.191

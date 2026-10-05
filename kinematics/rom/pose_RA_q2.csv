@@ -1,0 +1,3 @@
+axis,dir,limit_deg,moving_solid,other_solid,angles_tested,seconds
+RA_q2,+,,,,13,244.225
+RA_q2,-,-22.96875,body3.어깨_Yaw_팔꿈치_연결부_B_260423_URDF@RightArm@HumanoidUpperBody,base.C1_Body_Part07_260515@HumanoidUpperBody,8,36.052

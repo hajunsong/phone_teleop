@@ -1,0 +1,24 @@
+axis LA_q6: 23 candidate pairs within 180 deg
+opened HumanoidUpperBody_rom
+hid 255 layers while turning bodies
+parametric points: 33 found, 33 deleted, 0 connectors severed
+turning 3 bodies about (0,313.454601,-300.982447)
+0 resting fits ignored, 23 pairs live
+  +    9.0 deg  clear
+  +   24.0 deg  clear
+  +   39.0 deg  clear
+  +   54.0 deg  BLOCKED by body6.C1_손목_Pitch_링크고정부2_260408_URDF vs body5.손목_Roll_회전부3_260526_v2_URDF
+  + limit 48.84 deg   body6.C1_손목_Pitch_링크고정부2_260408_URDF vs body5.손목_Roll_회전부3_260526_v2_URDF
+  -    9.0 deg  clear
+  -   24.0 deg  clear
+  -   39.0 deg  clear
+  -   54.0 deg  clear
+  -   69.0 deg  clear
+  -   84.0 deg  clear
+  -   99.0 deg  clear
+  -  114.0 deg  BLOCKED by body7.C1_손목_Pitch_회전부_260415_URDF vs body5.손목_샤프트_260408_URDF
+  - limit -103.69 deg   body7.C1_손목_Pitch_회전부_260415_URDF vs body5.손목_샤프트_260408_URDF
+answered the parametric-point modal 0 times
+23 body moves, 6 s turning, 11 s total
+wrote C:\Users\gkwns\Desktop\Humanoid\HumanoidUpper\claude_ws\kinematics\rom\pose_LA_q6.csv
+closed (not saved)
